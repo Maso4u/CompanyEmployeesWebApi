@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DTOs\CompanyDTO.cs~RF35aad9ef.TMP" />
+    <None Remove="DTOs\CompanyForCreationDTO.cs~RF392c2891.TMP" />
+    <None Remove="DTOs\CompanyForCreationDTO.cs~RF39ccf9c1.TMP" />
+    <None Remove="RequestFeatures\EmployeeParameters.cs~RF4f5fb343.TMP" />
+  </ItemGroup>
+
+</Project>

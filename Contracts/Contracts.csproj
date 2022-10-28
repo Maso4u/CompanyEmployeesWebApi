@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ICompanyRepository.cs~RF392dd5f3.TMP" />
+    <None Remove="ICompanyRepository.cs~RF39d997cc.TMP" />
+    <None Remove="IEmpoyeeRepository.cs~RF34d2f987.TMP" />
+    <None Remove="IEmpoyeeRepository.cs~RF399d739e.TMP" />
+    <None Remove="IEmpoyeeRepository.cs~RF3ab620c4.TMP" />
+    <None Remove="ILoggerManager.cs~RF2fb559eb.TMP" />
+    <None Remove="IRepositoryBase.cs~RF499ec4d3.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+
+</Project>
